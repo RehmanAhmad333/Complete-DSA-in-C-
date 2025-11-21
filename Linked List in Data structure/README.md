@@ -1,121 +1,146 @@
-📚 Linked List Programs in C++
+<h1 align="center">📚 Linked List Programs in C++</h1>
 
-A complete collection of essential Linked List Data Structure programs written in clean and understandable C++ code.
-This repository includes implementations of Singly, Doubly, and Circular Linked Lists, along with advanced operations commonly asked in coding interviews, DSA exams, and real-world applications.
+<p align="center">
+A complete, well-structured, and beginner-friendly collection of Linked List implementations and advanced problems in C++.
+<br>
+Ideal for DSA practice, coding interviews, university exams, and competitive programming.
+</p>
 
-🌟 What’s Inside?
+---
 
-Below are the detailed explanations of each program included in this repository:
+<p align="center">
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Data%20Structures-Linked%20Lists-green?style=for-the-badge">
+  
+</p>
 
-1️⃣ Build_a_Singly_Linked_List.cpp
+---
 
-✔ Creates a basic Singly Linked List
+# 📌 Table of Contents  
+- [Introduction](#-introduction)  
+- [Programs Included](#-programs-included)  
+- [Detailed Program Descriptions](#-detailed-program-descriptions)  
+- [Purpose of This Repository](#-purpose-of-this-repository)   
+- [Contributing](#-contributing)  
 
-✔ Supports insertion at head, tail, and any position
+---
 
-✔ Demonstrates how pointers link nodes
+# 🔥 Introduction
 
-✔ Beginner-friendly structure
+This repository contains **all important Linked List implementations** you need for:
 
-2️⃣ Build_Circular_Linked_List.cpp
+✔ University DSA courses  
+✔ Coding interviews (FAANG, LeetCode, GFG)  
+✔ Pointer mastery  
+✔ Recursion + Iterative problem solving  
 
-✔ Implements a Circular Linked List
+Each program is written in **clean, readable C++** with comments and proper structure.
 
-✔ Last node points back to the first → circular loop
+---
 
-✔ Used in round-robin scheduling and buffers
+# 📦 Programs Included
 
-✔ Includes insertion & traversal logic
+| No. | Program Name | Description |
+|----|--------------|-------------|
+| 1️⃣ | Build_a_Singly_Linked_List.cpp | Basic SLL with insertions |
+| 2️⃣ | Build_Circular_Linked_List.cpp | Circular LL implementation |
+| 3️⃣ | Build_Doubly_Linked_List.cpp | DLL with insert/delete |
+| 4️⃣ | Detect_and_Remove_Cycle_in_Linked_list.cpp | Floyd cycle detection & removal |
+| 5️⃣ | Flatten_a_Doubly_Linked_List.cpp | Multi-level DLL flattening |
+| 6️⃣ | Merge_Two_Sorted_Linked_list.cpp | Merge 2 sorted lists |
+| 7️⃣ | Middle_of_a_Linked_list.cpp | Find middle using slow-fast pointers |
+| 8️⃣ | Reverse_a_Linked_List.cpp | Reverse list (iterative & recursive) |
+| 9️⃣ | Reverse_Nodes_in_K_Group.cpp | Reverse K nodes in groups |
+| 🔟 | Swap_Nodes_in_Pairs.cpp | Swap adjacent nodes |
 
-3️⃣ Build_Doubly_Linked_List.cpp
+---
 
-✔ Implements a Doubly Linked List (DLL)
+# 📘 Detailed Program Descriptions
 
-✔ Forward & backward traversal
+## 1️⃣ Build a Singly Linked List  
+✔ Insert at head, tail, or any position  
+✔ Introduces pointer basics  
+✔ Perfect for beginners  
 
-✔ Insertion and deletion at any position
+---
 
-✔ Helps understand prev & next pointers
+## 2️⃣ Build a Circular Linked List  
+✔ Last node connects to first  
+✔ Typically used in round-robin scheduling  
+✔ Includes traversal logic  
 
-4️⃣ Detect_and_Remove_Cycle_in_Linked_list.cpp
+---
 
-✔ Uses Floyd's Cycle Detection (Tortoise & Hare)
+## 3️⃣ Build a Doubly Linked List  
+✔ Next + Prev pointers  
+✔ Insert & delete anywhere  
+✔ Useful for LRU Cache, navigation systems  
 
-✔ Detects cycle in linked list
+---
 
-✔ Removes cycle safely
+## 4️⃣ Detect and Remove Cycle (Floyd’s Algorithm)  
+✔ Uses Tortoise & Hare method  
+✔ Detects cycle  
+✔ Removes it safely  
+✔ Highly asked in FAANG interviews  
 
-✔ Popular interview question (Google, Amazon)
+---
 
-5️⃣ Flatten_a_Doubly_Linked_List.cpp
+## 5️⃣ Flatten a Doubly Linked List  
+✔ Nodes contain: next + child pointers  
+✔ Recursively flattens multi-level list  
+✔ Strengthens recursion concepts  
 
-✔ Flattens a special DLL containing:
+---
 
-➝ next pointers
+## 6️⃣ Merge Two Sorted Linked Lists  
+✔ Classical linked list problem  
+✔ Recursion or iterative approach  
+✔ Popular on LeetCode & interviews  
 
-➝ child pointers
+---
 
-✔ Recursively merges all levels into a single list
+## 7️⃣ Find Middle of Linked List  
+✔ Slow & fast pointer method  
+✔ O(n) time, O(1) space  
+✔ Very commonly asked  
 
-✔ Strengthens recursion + pointer logic
+---
 
-6️⃣ Merge_Two_Sorted_Linked_list.cpp
+## 8️⃣ Reverse a Linked List  
+✔ Iterative + recursive version  
+✔ Builds pointer manipulation skills  
 
-✔ Merges two sorted linked lists into one
+---
 
-✔ Done using recursion or iteration
+## 9️⃣ Reverse Nodes in K Group  
+✔ Advanced interview problem  
+✔ Uses recursive + segmented reversal  
+✔ Great for mastering complex logic  
 
-✔ Very common LeetCode + interview question
+---
 
-✔ Great for practicing pointer manipulation
+## 🔟 Swap Nodes in Pairs  
+Example:  
+`1 → 2 → 3 → 4  becomes  2 → 1 → 4 → 3`  
+✔ Amazing pointer practice  
+✔ Common LeetCode problem  
 
-7️⃣ Middle_of_a_Linked_list.cpp
+---
 
-✔ Uses Slow & Fast pointers
+# 🎯 Purpose of This Repository
 
-✔ Efficient: O(n) time & O(1) space
+This repo helps you:
 
-✔ Common in exams and interviews
+✔ Build strong DSA foundations  
+✔ Prepare for coding interviews  
+✔ Improve pointer manipulation  
+✔ Understand recursion deeply  
+✔ Score high in university exams  
 
-8️⃣ Reverse_a_Linked_List.cpp
+---
 
-✔ Reverses linked list (iterative + recursive)
 
-✔ Strengthens pointer manipulation
 
-✔ One of the most fundamental linked list problems
 
-9️⃣ Reverse_Nodes_in_K_Group.cpp
-
-✔ Reverses nodes in groups of size k
-
-✔ Complex but highly important interview problem
-
-✔ Uses recursion + internal list reversal
-
-✔ Helps with group-based linked list logic
-
-🔟 Swap_Nodes_in_Pairs.cpp
-
-✔ Swaps adjacent nodes in pairs
-
-Example:
-1 → 2 → 3 → 4 becomes 2 → 1 → 4 → 3
-
-✔ Popular FAANG interview question
-
-✔ Good for mastering pointer updates
-
-🎯 Purpose of This Repository
-
-This repository is designed to help you:
-
-✔ Build strong fundamentals in Linked Lists
-
-✔ Prepare for coding interviews
-
-✔ Improve pointer manipulation
-
-✔ Strengthen recursion & iterative logic
-
-✔ Perform well in university DSA exams
